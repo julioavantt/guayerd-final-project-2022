@@ -142,6 +142,10 @@ body#login {
   padding: 6px;
 }
 
+.navbar-toggler {
+  border: 0;
+}
+
 @media (max-width: 500px) {
   body#login {
     background: transparent;
