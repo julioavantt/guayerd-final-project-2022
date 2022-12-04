@@ -66,6 +66,6 @@ function changeMap() {
 }
 
 const cerrarSesion = () => {
-  localStorage.removeItem("loggedIn");
+  localStorage.removeItem("logged");
   window.location.href = "index.html";
 };
