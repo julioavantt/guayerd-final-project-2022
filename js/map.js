@@ -1,3 +1,5 @@
+if (!localStorage.getItem("logged")) window.location.href = "index.html";
+
 let center = [25.2841478, 51.4419568];
 
 let map = L.map("map").setView(center, 13);
@@ -62,3 +64,8 @@ function changeMap() {
   marker = L.marker(objeto.coordenada, { icon }).addTo(map);
   marker.bindPopup(`<b>${objeto.jugador}</b><br>${objeto.ciudad}`).openPopup();
 }
+
+const cerrarSesion = () => {
+  localStorage.removeItem("loggedIn");
+  window.location.href = "index.html";
+};

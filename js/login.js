@@ -1,4 +1,4 @@
-if (localStorage.getItem("logged")) window.location.href = "/map.html";
+if (localStorage.getItem("logged")) window.location.href = "map.html";
 
 const credenciales = {
   email: "estudiante@guayerd.com",
@@ -18,7 +18,7 @@ form.addEventListener("submit", (event) => {
     credenciales.password === userPassword
   ) {
     localStorage.setItem("logged", "true");
-    window.location.href = "/map.html";
+    window.location.href = "map.html";
   } else {
     alert("Credenciales introducidas inválidas.");
   }
