@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body#login {
+  background: url(/img/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#login main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login form {
+  width: 364px;
+  background-color: white;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 36px;
+}
+
+#login form h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#login form label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#login form input {
+  background: #ffffff;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+#login form button {
+  background: #374785;
+  border: 1px solid #24305e;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  height: 38px;
+}
+
+#login footer {
+  background: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.7rem;
+}
+
+#login footer img {
+  width: 112px;
+  height: 29px;
+}
+
+#logo-cup {
+  display: none;
+}
+
+#la-scaloneta {
+  color: #119dd8;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  padding-right: 6rem;
+}
+
+.navbar.navbar-expand-lg {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar.navbar-expand-lg a.active {
+  color: #212529;
+}
+
+.navbar.navbar-expand-lg .d-flex button {
+  background: #374785;
+  border: 1px solid #24305e;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 33px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: white;
+}
+
+#logo-guayerd {
+  display: block;
+}
+
+#logo-guayerd-mini {
+  display: none;
+}
+
+#map {
+  height: calc(100vh - 56px);
+}
+
+#selectMap {
+  width: 300px;
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  top: 100px;
+  z-index: 1000;
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 3px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  height: 38px;
+  color: #212529;
+  outline: 0;
+  padding: 6px;
+}
+
+@media (max-width: 500px) {
+  body#login {
+    background: transparent;
+  }
+
+  #login main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #login form {
+    box-shadow: 0 0 0;
+  }
+
+  #login footer {
+    position: relative;
+  }
+
+  #logo-cup {
+    display: block;
+  }
+
+  .navbar.navbar-expand-lg .d-flex button {
+    width: 100%;
+  }
+
+  #logo-guayerd {
+    display: none;
+  }
+
+  #logo-guayerd-mini {
+    display: block;
+  }
+}
