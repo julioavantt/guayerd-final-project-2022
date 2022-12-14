@@ -2,7 +2,7 @@ if (!localStorage.getItem("logged")) window.location.href = "index.html";
 
 let center = [25.2841478, 51.4419568];
 
-let map = L.map("map").setView(center, 13);
+let map = L.map("map", { zoomControl: false }).setView(center, 13);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,

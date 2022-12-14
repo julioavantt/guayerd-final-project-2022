@@ -151,6 +151,65 @@ body#login {
   box-shadow: 0 0 0 !important;
 }
 
+#jugadores h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212529;
+  text-align: center;
+  margin: 48px 0 47px;
+}
+
+#jugadores h1 span {
+  color: #119dd8;
+}
+
+#jugadores .card {
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+}
+
+#jugadores .card h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  color: #212529;
+}
+
+#jugadores .card p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #212529;
+  margin-bottom: 0.4em;
+}
+
+#jugadores .card .img-wrapper {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+#jugadores .card .img-wrapper span {
+  position: absolute;
+  right: 14px;
+  top: 8px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
 @media (max-width: 992px) {
   .navbar-collapse.collapse.show {
     z-index: 1100;
